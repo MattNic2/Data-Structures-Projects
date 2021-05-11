@@ -1,0 +1,73 @@
+Doe, Jane (joejanit): JUnit version 4.12
+........E.E....
+Time: 0.27
+There were 2 failures:
+1) test8(HtmlValidatorTest)
+org.junit.ComparisonFailure: Validator output must match expected value expected:<...               </p>
+[ERROR unexpected tag:] </br>
+             ...> but was:<...               </p>
+[               ] </br>
+             ...>
+2) removeAllTest(HtmlValidatorTest)
+java.lang.AssertionError: expected:<[<hello>, <there>]> but was:<[<hello>, <there>, <general kenobi>]>
+
+FAILURES!!!
+Tests run: 13,  Failures: 2
+
+C6) Instructor test for input 8 fails
+C6) Instructor test for removeAll() fails (element names should have been compared with equalsIgnoreCase())
+T2) Student test for input 8 fails
+S4) Incorrect use of whitespace throughout the source code (e.g. lack of space around a curly brace)
+
+Doe, Jane (joejanit): JUnit version 4.12
+.........E....
+Time: 0.214
+There was 1 failure:
+1) removeAllTest(HtmlValidatorTest)
+java.lang.AssertionError: expected:<[<hello>, <there>]> but was:<[<hello>, <there>, <general kenobi>]>
+
+FAILURES!!!
+Tests run: 13,  Failures: 1
+
+
+Doe, Jane (joejanit): JUnit version 4.12
+.........E....
+Time: 0.257
+There was 1 failure:
+1) removeAllTest(HtmlValidatorTest)
+java.lang.AssertionError: expected:<[<hello>, <there>]> but was:<[<hello>, <there>, <general kenobi>]>
+
+FAILURES!!!
+Tests run: 13,  Failures: 1
+
+
+Doe, Jane (joejanit): JUnit version 4.12
+.........E.E.E..E
+Time: 0.251
+There were 4 failures:
+1) removeAllTest(HtmlValidatorTest)
+java.lang.NullPointerException
+2) removeAllNullTest(HtmlValidatorTest)
+java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NullPointerException>
+Caused by: java.lang.NullPointerException
+	... 29 more
+3) addTagTest(HtmlValidatorTest)
+java.lang.NullPointerException
+4) removeAllLowercaseTest(HtmlValidatorTest)
+java.lang.NullPointerException
+
+FAILURES!!!
+Tests run: 13,  Failures: 4
+
+
+Doe, Jane (joejanit): Error cloning repository at git@github.com:cbu-egr221-sp21/joejanit.git
+
+Doe, Jane (joejanit): All tests passed
+
+Doe, Jane (joejanit): Error cloning repository at git@github.com:cbu-egr221-sp21/joejanit.git
+
+Doe, Jane (joejanit): Code did not compile
+
+Doe, Jane (joejanit):Error cloning repository at git@github.com:cbu-egr221-sp21/joejanit.git
+
+
